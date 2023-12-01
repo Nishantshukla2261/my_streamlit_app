@@ -32,7 +32,6 @@ st.success("Column information of the dataset")
 cols = df.columns.tolist()
 st.subheader(f'Total columns {len(cols)} ➡️ {", ".join(cols)}')
 
-
 # 3. add some graph and widgets
 st.header("Basic Data Visualization")
 gop=['bar','line','area']
